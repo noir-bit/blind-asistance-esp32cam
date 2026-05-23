@@ -92,6 +92,7 @@ python clients/yolov8s_coco_client.py
 ---
 
 ##  Detalles del Entrenamiento YOLOv8 Personalizado
+*   **Notebook de Entrenamiento (Kaggle)**: [Entrenamiento Último en Kaggle](https://www.kaggle.com/code/noirbit/entrenamiento-ultimo)
 *   **Dataset**: Roboflow (jaggyj/road-obstacles-ur2wn Version 3).
 *   **Arquitectura**: YOLOv8n (Nano) para máxima velocidad en dispositivos móviles.
 *   **Hiperparámetros**:
