@@ -4,7 +4,7 @@ Este repositorio contiene el sistema completo para la detección de obstáculos 
 
 ---
 
-## 🚀 Arquitectura del Proyecto
+##  Arquitectura del Proyecto
 
 ```text
 road-obstacle-detector/
@@ -23,7 +23,7 @@ road-obstacle-detector/
 
 ---
 
-## 📸 1. ESP32-CAM (Firmware)
+##  1. ESP32-CAM (Firmware)
 
 El código del servidor web de video se encuentra en [firmware/esp32_cam_server/esp32_cam_server.ino](firmware/esp32_cam_server/esp32_cam_server.ino).
 
@@ -41,7 +41,7 @@ El código del servidor web de video se encuentra en [firmware/esp32_cam_server/
 
 ---
 
-## 🐍 2. Clientes Python (Celular con Termux / PC)
+##  2. Clientes Python (Celular con Termux / PC)
 
 Los clientes de procesamiento de Inteligencia Artificial se ejecutan en Python y se conectan vía HTTP al stream de la ESP32-CAM.
 
@@ -66,7 +66,7 @@ Esto creará una carpeta `audios/` con los archivos `.mp3` secuenciales correspo
 
 ---
 
-## 🧠 3. Opciones de Detección
+##  3. Opciones de Detección
 
 ### Opción A: Modelo Personalizado (Detección de Obstáculos en Carretera)
 Utiliza el modelo optimizado que entrenamos a resolución `512` con 80 épocas en Kaggle sobre el dataset de Roboflow **`road-obstacles-ur2wn`**.
@@ -91,7 +91,7 @@ python clients/yolov8s_coco_client.py
 
 ---
 
-## 🛠️ Detalles del Entrenamiento YOLOv8 Personalizado
+##  Detalles del Entrenamiento YOLOv8 Personalizado
 *   **Dataset**: Roboflow (jaggyj/road-obstacles-ur2wn Version 3).
 *   **Arquitectura**: YOLOv8n (Nano) para máxima velocidad en dispositivos móviles.
 *   **Hiperparámetros**:
